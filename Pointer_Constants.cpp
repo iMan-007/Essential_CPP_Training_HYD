@@ -29,6 +29,31 @@ r=&data;
 r=&y;
 *r = 200;
 cout<<*r<<endl;
+
+    //CONCEPTS
+    /*
+    int x=10;
+int z=30;
+int & y = x;
+y=100;
+y=z;
+
+const int & a =x;
+a=100;
+
+int x;
+int *p;
+int & y; //not possible
+int & y =x;
+
+const int* p;
+int* const p;
+ const int* const p;
+ 
+ const int & alias = x;//alias is an reference to an integer that is constant so no value change is possible
+ alias = 100; //not possible because of above statement
+ alias = z;//not possible in alias
+    */
     
 
     return 0;
