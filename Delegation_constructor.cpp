@@ -29,7 +29,12 @@ class BankCustomer{
         cout<<"nameArg,adharNumberArg,panNumber,emailArg,phoneArg"<<endl;
     }
     void printCustomerInfo(){
-            cout<<"Manikandan, 1234, 5678, mani@gmail.com,0123"<<endl;
+            cout<<"Phonenumber:"<<this->phoneNumber<<endl;
+            cout<<"Name:"<<this->name<<endl;
+            cout<<"Aadharnumber:"<<this->adharNumber<<endl;
+            cout<<"Mail:"<<this->emailId<<endl;
+            cout<<"PANnumber:"<<this->panNumber<<endl;       
+        
         }
 
 };
