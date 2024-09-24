@@ -12,6 +12,14 @@ class Date{
 		void printDate(){
 		cout<<this->day<<"-"<<this->month<<"-"<<this->year<<endl;
 		}
+		
+		void operator++(int delta){
+		    this->day+=1;
+		}
+		void operator--(int delta){
+		    this->day-=1;
+		}		
+
 };
 
 int main(){
